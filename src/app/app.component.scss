@@ -1,0 +1,13 @@
+
+
+.custom-navbar{
+    visibility: visible;
+}
+
+
+
+@media only screen and (max-width: 500px) {
+    .custom-navbar{
+           visibility: hidden;
+    }
+}
