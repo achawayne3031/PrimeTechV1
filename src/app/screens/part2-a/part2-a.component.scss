@@ -1,0 +1,106 @@
+
+
+.content-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+
+    h4{
+        font-size: 13px;
+    }
+
+    .battery-wrapper{
+        text-align: center;
+        span{
+            margin-top: 20px;
+            font-size: 20px;
+        }
+
+        p{
+            font-size: 12px;
+        }
+    }
+
+    .bluetooth-text-wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+        margin-top: 40px;
+
+        span{
+            font-size: 13px;
+            text-align: center;
+        }
+
+        p{
+            font-size: 12px;
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+
+    }
+
+    .bluetooth-wrapper{
+        margin-top: 50px;
+        width: 150px;
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        border-radius: 50%;
+        justify-content: center;
+        border: 1px solid blue;
+
+
+        .bluetooth-icon{
+            color: blue;
+            font-size: 30px;
+            text-align: center;
+            display: block;
+        }
+
+        p{
+            font-size: 10px;
+            margin-top: 0px;
+            margin-bottom: 0px;
+
+        }
+    }
+
+
+
+}
+
+
+
+.footer-wrapper{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    margin-top: 150px;
+
+    .footer-content{
+        display: grid;
+        gap: 10px;
+        // bottom: 30px;
+        // position: fixed;
+       
+        grid-template-columns: repeat(4, 130px);
+    
+        div{
+            width: 40px;
+            height: 40px;
+            align-items: center;
+            display: flex;
+            text-align: center;
+            border-radius: 50%;
+            justify-content: center;
+            border: 1px solid cyan;
+
+        }
+    }
+}
